@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.21" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.21" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.14.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nxt.Common\Nxt.Common.csproj" />
+    <ProjectReference Include="..\Nxt.Entities\Nxt.Entities.csproj" />
+    <ProjectReference Include="..\Nxt.Repositories\Nxt.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

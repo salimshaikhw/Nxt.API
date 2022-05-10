@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nxt.API", "Nxt.API\Nxt.API.csproj", "{65497FBF-AC17-41FA-AB51-5A0178322884}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nxt.Common", "Nxt.Common\Nxt.Common.csproj", "{096DC8AD-060E-40C8-BF1C-8E0D09C06BFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nxt.Services", "Nxt.Services\Nxt.Services.csproj", "{6EE7001D-1678-4A01-A065-BB330AC47AB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nxt.Repositories", "Nxt.Repositories\Nxt.Repositories.csproj", "{DF11581E-444A-41CF-AB2C-D5EAA900544A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nxt.Entities", "Nxt.Entities\Nxt.Entities.csproj", "{B048DDA0-D7F6-4B97-9C24-63D8FC6B0E2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{58C10930-156B-4BB0-A222-7CCBE661373E}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65497FBF-AC17-41FA-AB51-5A0178322884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65497FBF-AC17-41FA-AB51-5A0178322884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65497FBF-AC17-41FA-AB51-5A0178322884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65497FBF-AC17-41FA-AB51-5A0178322884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096DC8AD-060E-40C8-BF1C-8E0D09C06BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096DC8AD-060E-40C8-BF1C-8E0D09C06BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096DC8AD-060E-40C8-BF1C-8E0D09C06BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096DC8AD-060E-40C8-BF1C-8E0D09C06BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE7001D-1678-4A01-A065-BB330AC47AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE7001D-1678-4A01-A065-BB330AC47AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE7001D-1678-4A01-A065-BB330AC47AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE7001D-1678-4A01-A065-BB330AC47AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF11581E-444A-41CF-AB2C-D5EAA900544A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF11581E-444A-41CF-AB2C-D5EAA900544A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF11581E-444A-41CF-AB2C-D5EAA900544A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF11581E-444A-41CF-AB2C-D5EAA900544A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B048DDA0-D7F6-4B97-9C24-63D8FC6B0E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B048DDA0-D7F6-4B97-9C24-63D8FC6B0E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B048DDA0-D7F6-4B97-9C24-63D8FC6B0E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B048DDA0-D7F6-4B97-9C24-63D8FC6B0E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77A46B01-A60F-4D53-A8A1-5E5655B904CE}
+	EndGlobalSection
+EndGlobal
